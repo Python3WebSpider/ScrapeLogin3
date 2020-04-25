@@ -1,6 +1,5 @@
 import requests
 from urllib.parse import urljoin
-import json
 
 BASE_URL = 'https://login3.scrape.cuiqingcai.com/'
 LOGIN_URL = urljoin(BASE_URL, '/api/login')
